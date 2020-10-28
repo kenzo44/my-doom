@@ -3,7 +3,6 @@
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
 (setq default-directory "~/")
-(setq byte-compile-warnings '(cl-functions))
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
 (setq user-full-name "John Doe"
@@ -52,3 +51,13 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;;nyan-cat
+(nyan-mode 1)
+(setq nyan-wavy-trail t)
+(setq nyan-animate-nyancat t)
+
+(blink-cursor-mode t)
+
+;;Displays time
+(display-time-mode t)
