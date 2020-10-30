@@ -51,3 +51,6 @@
 
 ;;Melpa packages
 (package! nyan-mode)
+(package! mips-mode)
+(package! register-list)
+(package! rainbow-identifiers)
