@@ -54,3 +54,4 @@
 (package! mips-mode)
 (package! register-list)
 (package! rainbow-identifiers)
+(package! aggressive-indent)
