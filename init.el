@@ -18,10 +18,10 @@
        ;;layout            ; auie,ctsrnm is the superior home row
        :completion
        (company         ; the ultimate code completion backend
-        +auto           ; as-you-type completion
-        +childdrame)    ; a nicer company UI. Emacs +26 only!
+        +auto)           ; as-you-type completion
        (ivy             ; a search engine for love and life
-        +fuzzy)
+        +fuzzy
+        +icons)
 
        :ui
        ;;deft              ; notational velocity for Emacs
