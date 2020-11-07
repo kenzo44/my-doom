@@ -2,7 +2,6 @@
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
-(setq default-directory "~/")
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets.
 (setq user-full-name "John Doe"
@@ -52,11 +51,5 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; Make ESC quit prompts
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-
 ;;Bridge between .spacemacs and org file
 (org-babel-load-file (expand-file-name "~/.doom.d/myconfig.org"))
-
-;; Map comment key
-(map! :ne "M-/" #'comment-or-uncomment-region)
